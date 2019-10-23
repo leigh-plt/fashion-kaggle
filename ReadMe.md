@@ -12,4 +12,6 @@ For train use scripts:
 
 ```  script/inference.sh ``` - make submission file
 
+For all scripts: TPU_IP_ADDRESS=10.128.17.2 - Replace it on YOUR TPU NODE IP
+
 ``` notebook/Fast Visualizing Model.ipynb ``` - contained visualized prediction for trained model on 200 images. Normal training too long.
