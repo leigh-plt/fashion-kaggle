@@ -7,7 +7,9 @@ This code only example how train model (fcn_resnet50 or deeplabv3_resnet50) for 
 For train use scripts:
 
 ``` script/convert_csv ``` - conver csv file to json for faster access
+
 ``` script/train.sh ``` - run training loops with TPU
-``  script/inference.sh ``` make submission file
+
+```  script/inference.sh ``` - make submission file
 
 ``` notebook/Fast Visualizing Model.ipynb ``` - contained visualized prediction for trained model on 200 images. Normal training too long.
