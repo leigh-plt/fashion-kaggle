@@ -13,6 +13,7 @@ For train use scripts:
 ```  script/inference.sh ``` - make submission file
 
 Don't forget : ```conda activate torch-xla-0.5```
+
 For all scripts: TPU_IP_ADDRESS=10.128.17.2 - Replace it on YOUR TPU NODE IP
 
 ``` notebook/Fast Visualizing Model.ipynb ``` - contained visualized prediction for trained model on 200 images. Normal training too long.
